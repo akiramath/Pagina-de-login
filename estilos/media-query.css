@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width:992px){
+    body{
+        background-image: linear-gradient(to top, rgb(170, 170, 170) , black 50%);
+    }
+
+    #login{
+        width: 80vw;
+    }
+
+    #imagem{
+        float: left;
+        background: url('../imagens/fundo1.jpg')no-repeat;
+        background-size: cover;
+        background-position: center center;
+        width: 30%;
+        height: 100%;
+    }
+
+    #formulario{
+        float: right;
+        width: 70%;
+    }
+
+    h1{
+        font-size: 2em;
+    }
+
+    p{
+        width: 300px;
+        margin-bottom: 60px;
+        margin-left: 20%;
+    }
+
+    .dados{
+        padding: 20px;
+        width: 350px;
+        margin-left: 13%;
+
+    }
+
+    .botao{
+        width: 200px;
+        padding: 12px;
+        margin-top: 50px;
+        margin-left: 30%;
+        margin-bottom: 10%;
+    }
+
+    .links{
+        font-size: .8em;
+        margin-left: 20%;
+    }
+    
+}
+
+@media screen and (min-width: 992px){
+    body{
+        background-image: linear-gradient(to top, rgb(170, 170, 170) , black 50%);
+    }
+    
+    #login{
+        width: 950px;
+    }
+
+    #imagem{
+        float: right;
+        background: url('../imagens/fundo1.jpg')no-repeat;
+        background-size: cover;
+        background-position: center center;
+        width: 50%;
+        height: 100%;
+    }
+
+    #formulario{
+        float: left;
+        width: 50%;
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 2em;
+    }
+    
+    p{
+        font-size: 1.2em;
+        margin-left: 10px;
+        margin-bottom: 10%;
+    }
+
+    .dados{
+        font-size: 1em;
+        width: 400px;
+        padding: 20px;
+        margin-left: 8%;
+    }
+
+    .botao{
+        font-size: 1em;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 300px;
+    }
+
+    .links{
+        font-size: 1em;
+        margin: 10%;
+    }
+}
